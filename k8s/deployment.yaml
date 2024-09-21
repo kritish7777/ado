@@ -1,1 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: az-agents-deployment
+  namespace: demo-agent
+  labels:
+    app: az-agents
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: az-agents
+  template:        
+    metadata:
+      labels:
+        app: az-agents
+    spec:
+      containers:
+      - name: az-agents
+        image: kritish7777/azure-agent:latest
+        env:
+        - name: AZP_TOKEN
+          value: "*****************************************"
+        - name: AZP_URL
+          value: "https://dev.azure.com/kritishjangir777/"
+        - name: AZP_POOL
+          value: "Demo-agent"
+        - name: AZP_AGENT_NAME
+          value: "Demo-agent777"
 
