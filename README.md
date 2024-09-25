@@ -1,17 +1,11 @@
-Azure DevOps Agents - Self-hosted Agent Deployment:
+Azure DevOps Agents Documentation:
 
-This project provides detailed instructions for deploying self-hosted agents for Azure DevOps using Docker and Kubernetes. By deploying self-hosted agents, you can run pipelines on your own infrastructure.
+https://github.com/kritish7777/az-dev/wiki/Azure-DevOps-agents
 
-Table of Contents:
+Deploy Azure Self‐hosted agent using Dockerfile:
 
-Overview
+https://github.com/kritish7777/ado/wiki/Deploy-Azure-Self%E2%80%90hosted-agent-using-Dockerfile
 
-Pre-requisites
+Deploy Azure Self‐hosted agent using Dockerfile and K8s:
 
-Deploying Azure DevOps Self-hosted Agent using Docker
-
-Deploying Azure DevOps Self-hosted Agent using Docker and Kubernetes
-
-Configuration
-
-References
+https://github.com/kritish7777/ado/wiki/Deploy-Azure-Self%E2%80%90hosted-agent-using-Dockerfile-and-K8s
